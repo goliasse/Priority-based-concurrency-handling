@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessor.Api", "src\MessageProcessor.Api\MessageProcessor.Api.csproj", "{D45B41C5-1F17-4F48-8D6E-8F3E4DCE95D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessor.Core", "src\MessageProcessor.Core\MessageProcessor.Core.csproj", "{A9B9C6E7-2D34-4F58-9D6E-8F3E4DCE95D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4C6F647-5EE3-4A41-9C7E-86E8F6EE727A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8BF2D39-7A1A-4633-9B4D-7F3F65C21B4E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45B41C5-1F17-4F48-8D6E-8F3E4DCE95D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45B41C5-1F17-4F48-8D6E-8F3E4DCE95D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45B41C5-1F17-4F48-8D6E-8F3E4DCE95D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45B41C5-1F17-4F48-8D6E-8F3E4DCE95D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B9C6E7-2D34-4F58-9D6E-8F3E4DCE95D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B9C6E7-2D34-4F58-9D6E-8F3E4DCE95D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B9C6E7-2D34-4F58-9D6E-8F3E4DCE95D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B9C6E7-2D34-4F58-9D6E-8F3E4DCE95D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D45B41C5-1F17-4F48-8D6E-8F3E4DCE95D7} = {B4C6F647-5EE3-4A41-9C7E-86E8F6EE727A}
+		{A9B9C6E7-2D34-4F58-9D6E-8F3E4DCE95D8} = {B4C6F647-5EE3-4A41-9C7E-86E8F6EE727A}
+	EndGlobalSection
+EndGlobal
